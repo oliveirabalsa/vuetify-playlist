@@ -171,13 +171,26 @@
         <v-flex xs4 md3>
           <v-btn outline block class="success">2</v-btn>
         </v-flex>
-      </v-layout>>
+      </v-layout>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data(){
+    data = []
+  },
+  created() {
+
+  this.$http.get('http://localhost:3000/data')
+      .then(res => res.json())  
+      .then(data => this.data);
+      console.log(data)
+  }
+
+
+};
 </script>
 
 <style>

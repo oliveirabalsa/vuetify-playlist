@@ -78,6 +78,9 @@ export default {
 }::v-deep .v-icon{
   font-size: 15px!important;
 }
-
+::v-deep .theme--light.v-list {
+  background: none!important;
+}
 
 </style>
+.v-list 

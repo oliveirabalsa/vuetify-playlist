@@ -1,4 +1,4 @@
-# todo-ninja
+# Teste Link API
 
 ## Project setup
 ```
@@ -24,3 +24,10 @@ npm run test
 ```
 npm run lint
 ```
+
+### Files
+Os arquivos do teste estao em View/Dashboard.vue
+
+Components/Navbar.vue
+
+e Api
